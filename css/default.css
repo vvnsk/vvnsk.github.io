@@ -201,6 +201,10 @@ ul.side-nav.fixed li.logo .icon:hover {
     -webkit-filter: grayscale(0%)
 }
 
+.coming-soon {
+    width: 100%;
+}
+
 @font-face {
     font-family: myFirstFont;
     src: url(../fonts/retro-lined-area.ttf)
