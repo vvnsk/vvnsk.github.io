@@ -59,12 +59,12 @@ ul.side-nav.fixed li.logo h2 {
     height: auto
 }
 
-ul.side-nav.fixed li.logo .fa {
+ul.side-nav.fixed li.logo .icon {
     border: 1px solid transparent;
     padding: 5px;
 }
 
-ul.side-nav.fixed li.logo .fa:hover {
+ul.side-nav.fixed li.logo .icon:hover {
     cursor: pointer;
     border: 1px solid white;
 }
@@ -144,6 +144,32 @@ ul.side-nav.fixed li.logo .fa:hover {
 
 .js-img-height {
     height: 100px !important
+}
+
+.element {
+    width: 50%;
+    float: left;
+    margin-bottom: 30px;
+    min-height: 150px;
+}
+
+.element img {
+    width: 40%;
+    float: left;
+    max-width: 150px;
+}
+
+.element .desc {
+    width: 60%;
+    float: left;
+    padding-left: 20px;
+    padding-top: 40px;
+}
+
+.element h6 {
+    font-weight: 700;
+    font-size: 1.2rem;
+    color: #757575 !important;
 }
 
 .card {
@@ -256,6 +282,10 @@ ul.side-nav.fixed li.logo .fa:hover {
 	.collection ,.collection .collection-item.avatar{
 		position: static;
 	}
+
+    .element {
+        width: 100%;
+    }
 	
 }
 
@@ -344,16 +374,24 @@ ul.side-nav.fixed li.logo .fa:hover {
     border-left: 9px solid #678C40
 }
 
-.Experience {
-    border-left: 9px solid #2F455C
+.Certifications {
+    border-left: 9px solid #58525F
 }
 
-.Projects {
+.Experience {
+    border-left: 9px solid #2F455B
+}
+
+.Summary {
     border-left: 9px solid #4C8DB3
 }
 
 .Skills {
     border-left: 9px solid #824C96
+}
+
+.Projects {
+    border-left: 9px solid #EF5743
 }
 
 .Gallery {
@@ -362,6 +400,10 @@ ul.side-nav.fixed li.logo .fa:hover {
 
 .Education {
     border-left: 9px solid #009AB2
+}
+
+.Fitness {
+    border-left: 9px solid #5F65BA
 }
 
 .collapsible-header {

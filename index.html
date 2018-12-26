@@ -28,7 +28,7 @@
 	
     <link href="css/materialize.min.css" rel="stylesheet" type="text/css">
     <link href="css/default.css" rel="stylesheet" type="text/css">
-    <link href="css/font-awesome.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
 
     <title>Saikrishna Vinnakota</title>
 </head>
@@ -44,10 +44,9 @@
                 "logo-container"><img class="circle" src="images/logo/logo.PNG" width="150px"></a>
 
         <h2>Saikrishna Vinnakota</h2>
-        <a href="https://www.facebook.com/vvnsk" target="_blank"><i class="fa fa-facebook"></i></a>
-        <a href="https://in.linkedin.com/in/vvnsk" target="_blank"><i class="fa fa-linkedin"></i></a>
-        <a href="https://github.com/vvnsk" target="_blank"><i class="fa fa-github-alt"></i></a>
-        <a href="http://jsfiddle.net/user/vvnsk/" target="_blank"><i class="fa fa-jsfiddle"></i></a>
+        <a href="https://in.linkedin.com/in/vvnsk" target="_blank"><i class="fab fa-linkedin-in icon"></i></a>
+        <a href="https://github.com/vvnsk" target="_blank"><i class="fab fa-github icon"></i></a><!--
+        <a href="https://github.com/vvnsk" target="_blank"><i class="fas fa-dumbbell icon"></i></a>-->
     </li>
 
     <li class="profile scrollRef waves-effect waves-light"
@@ -55,9 +54,14 @@
                                                "fa fa-child"></i>Profile
     </li>
 	
-	<li class="Projects scrollRef waves-effect waves-light"
-        data-scrolltarget="projects"><i class=
+	<li class="Summary scrollRef waves-effect waves-light"
+        data-scrolltarget="summary"><i class=
                                                 "fa fa-cube"></i>Summary
+    </li>
+
+    <li class="Certifications scrollRef waves-effect waves-light"
+        data-scrolltarget="certifications"><i class=
+                                                "fa fa-certificate"></i>Certifications
     </li>
 
     <li class="Experience scrollRef waves-effect waves-light"
@@ -66,13 +70,21 @@
     </li>
 
     <li class="Skills scrollRef waves-effect waves-light"
-        data-scrolltarget="skills"><i class="fa fa-file-code-o"></i>
+        data-scrolltarget="skills"><i class="fas fa-code"></i>
         Skills
     </li>
 
+    <li class="Projects scrollRef waves-effect waves-light"
+        data-scrolltarget="projects"><i class="fa fa-cog"></i>
+        Projects
+    </li>
+
     <li class="Education scrollRef waves-effect waves-light"
-        data-scrolltarget="education"><i class=
-                                                 "fa fa-book"></i>Education
+        data-scrolltarget="education"><i class="fa fa-book"></i>Education
+    </li>
+
+    <li class="Fitness scrollRef waves-effect waves-light"
+        data-scrolltarget="fitness"><i class="fa fa-dumbbell"></i>Fitness
     </li>
 </ul>
 
@@ -93,11 +105,9 @@
         </div>
 
         <div class="details">
-            <p><img height="25" src="images/icons/mobile-icon.png">
-                <span><a href="tel:+14042471906" target="_blank">+1 404-247-1906</a></span></p>
 
             <p><img height="25" src="images/icons/gmail-icon.png">
-						<span><a href="mailto:vinnakota@mail.usf.com" target="_blank">vinnakota@mail.usf.edu</a></span></p>
+						<span><a href="mailto:vinnakotavnsaikrishna@gmail.com" target="_blank">vinnakotavnsaikrishna@gmail.com</a></span></p>
 			<p><img height="25" src="images/icons/resume-icon.png">
 						<span><a href="resume/Saikrishna_Resume.pdf" target="_blank">Curriculum Vitae</a></span></p>
             <p><img height="25" src="images/icons/location-icon.png">
@@ -106,10 +116,10 @@
     </div>
 </div>
 
-<div class="parallax-container" id="projects">
+<div class="parallax-container" id="summary">
     <p class="bannerStatic">Summary</p>
 
-    <div class="parallax"><img src="images/banner/projects.jpg"></div>
+    <div class="parallax"><img src="images/banner/summary.jpg"></div>
 </div>
 
 <div class="section white">
@@ -117,7 +127,7 @@
         <ul class="collection">
             <li class="collection-item avatar">
 				<p><br></p>
-                <p>I'm a full stack web developer, specialized in User Interface(UI) Development with over four years of experience. With extensive knowledge of web technologies and enthusiasm to learn new technologies, I'm always in search of something new. I frequently work on challenging designs with complex interactions and integration. Beautiful interfaces and Beastly capabilities, makes web development a Perfect blend of beauty and beast. I see every new experience as an opportunity to learn, and I make sure I learn something new every day.</p>
+                <p>I'm a full stack web developer, specialized in User Interface(UI) Development with over five years of experience. With extensive knowledge of web technologies and enthusiasm to learn new technologies, I'm always in search of something new. I frequently work on challenging designs with complex interactions and integration. Beautiful interfaces and Beastly capabilities, makes web development a Perfect blend of beauty and beast. I see every new experience as an opportunity to learn, and I make sure I learn something new every day.</p>
 				<p><br></p>
 				<p>Hands-on development in creating and modifying data visualization dashboards. Proven ability to deliver dashboards and roll out incremental refreshes for data sources on Tableau server.</p>
 				<p><br></p>
@@ -143,6 +153,66 @@
             </li>
 
         </ul>
+    </div>
+</div>
+
+<div class="parallax-container" id="certifications">
+    <p class="bannerStatic">Certifications</p>
+
+    <div class="parallax"><img src="images/banner/certifications.jpg"></div>
+</div>
+
+<div class="section white">
+    <div class="row projectsAlign">
+        <div class="element">
+            <img src="images/logo/oracle.jpg" class="responsive-img no-flex">
+            <div class="desc">
+                <h6>Oracle Certified Associate, Java SE 8 Programmer</h6>
+                <a href="https://www.youracclaim.com/badges/1d633d8b-56c9-4b2c-928e-a23de65a8823/linked_in_profile" target="_blank">View Certificate</a>
+            </div>
+        </div>
+        <div class="element">
+            <img src="images/logo/microsoft.jpg" class="responsive-img no-flex">
+            <div class="desc">
+                <h6>Microsoft Certified Professional, HTML5 with JavaScript and CSS3</h6>
+                <a href="https://www.youracclaim.com/badges/6a98702a-a3f1-46ee-8211-e5b830a12937/linked_in_profile" target="_blank">View Certificate</a>
+            </div>
+        </div>
+        <div class="element">
+            <img src="images/logo/mongo.jpg" class="responsive-img no-flex">
+            <div class="desc">
+                <h6>MongoDB for DBA's</h6>
+                <a href="http://university.mongodb.com/course_completion/b377ac8ee5424c7e87baa6ca88d10c23" target="_blank">View Certificate</a>
+            </div>
+        </div>
+        <div class="element">
+            <img src="images/logo/mitx.jpg" class="responsive-img no-flex">
+            <div class="desc">
+                <h6>Computer Science and Programming Using Python</h6>
+                <a href="https://courses.edx.org/certificates/f03d105aea9f4bd8a64beb30c8b94750" target="_blank">View Certificate</a>
+            </div>
+        </div>
+        <div class="element">
+            <img src="images/logo/sas.jpg" class="responsive-img no-flex">
+            <div class="desc">
+                <h6>Analytics and Business Intelligence - USF</h6>
+                <a href="certificates/sas_certi.pdf" target="_blank">View Certificate</a>
+            </div>
+        </div>
+        <div class="element">
+            <img src="images/logo/datacamp.jpg" class="responsive-img no-flex">
+            <div class="desc">
+                <h6>Data Scientist with R</h6>
+                <a href="https://www.datacamp.com/statement-of-accomplishment/track/3120f7203097bfa4cdfbc0aaa1961d5790d3c496" target="_blank">View Certificate</a>
+            </div>
+        </div>
+        <div class="element">
+            <img src="images/logo/datacamp.jpg" class="responsive-img no-flex">
+            <div class="desc">
+                <h6>Data Analyst with R</h6>
+                <a href="https://www.datacamp.com/statement-of-accomplishment/track/862d3fa82c3769ef2cb5fde512b08b760c948983" target="_blank">View Certificate</a>
+            </div>
+        </div>
     </div>
 </div>
 
@@ -295,7 +365,7 @@
             <h6>BOOTSTRAP</h6>
         </div>
 
-	<div class="img-wrap">
+	    <div class="img-wrap">
             <img src="images/skill/aurelia-logo.jpg" class="responsive-img no-flex">
             <h6>AURELIA</h6>
         </div>
@@ -308,6 +378,11 @@
 		<div class="img-wrap">
             <img src="images/skill/react-logo.jpg" class="responsive-img no-flex">
             <h6>REACT</h6>
+        </div>
+
+        <div class="img-wrap">
+            <img src="images/skill/java-logo.jpg" class="responsive-img no-flex">
+            <h6>JAVA</h6>
         </div>
 		
 		<div class="img-wrap">
@@ -353,11 +428,6 @@
         <div class="img-wrap">
             <img src="images/skill/heroku-logo.jpg" class="responsive-img no-flex">
             <h6>HEROKU</h6>
-        </div>
-
-        <div class="img-wrap">
-            <img src="images/skill/java-logo.jpg" class="responsive-img no-flex">
-            <h6>JAVA</h6>
         </div>
 
         <div class="img-wrap">
@@ -408,6 +478,47 @@
     </div>
 </div>
 
+<div class="parallax-container" id="projects">
+    <p class="bannerStatic">Projects</p>
+
+    <div class="parallax"><img src="images/banner/projects.jpg"></div>
+</div>
+
+<div class="section white">
+    <div class="row projectsAlign">
+        <div class="element">
+            <h6>Quip</h6>
+            <p>A compact google maps directory to buildings at the Tampa campus of the University of South Florida.</p>
+            <p><a href="https://fadfood5.github.io/QuipAppUSF/" target="_blank"><i class="fas fa-eye"></i> Demo</a> <a href="https://github.com/fadfood5/QuipAppUSF" target="_blank"><i class="fas fa-code"></i> Code</a></p>
+        </div>
+        <div class="element">
+            <h6>ngKart</h6>
+            <p>Interactive Shopping Web template using Angular</p>
+            <p><a href="http://vvnsk.github.io/ngKart/" target="_blank"><i class="fas fa-eye"></i> Demo</a> <a href="https://github.com/vvnsk/ngKart" target="_blank"><i class="fas fa-code"></i> Code</a></p>
+        </div>
+        <div class="element">
+            <h6>D3 Dashboard</h6>
+            <p>D3 Dashboard to view summary of reports on FISH Institute</p>
+            <p><a href="/viz" target="_blank"><i class="fas fa-eye"></i> Demo</a> <a href="https://github.com/vvnsk/D3-Dashboard" target="_blank"><i class="fas fa-code"></i> Code</a></p>
+        </div>
+        <div class="element">
+            <h6>Angular Light</h6>
+            <p>Interactive Shopping Web template using Angular</p>
+            <p><a href="http://vvnsk.github.io/Angular-Light-Demo/" target="_blank"><i class="fas fa-eye"></i> Demo</a> <a href="https://github.com/vvnsk/Angular-Light-Demo" target="_blank"><i class="fas fa-code"></i> Code</a></p>
+        </div>
+        <div class="element">
+            <h6>Form Renderer</h6>
+            <p>POC on Dynamic Form Rendering</p>
+            <p><a href="http://vvnsk.github.io/formRenderer/" target="_blank"><i class="fas fa-eye"></i> Demo</a> <a href="https://github.com/vvnsk/formRenderer" target="_blank"><i class="fas fa-code"></i> Code</a></p>
+        </div>
+        <div class="element">
+            <h6>Cartoon Strip</h6>
+            <p>Interactive Shopping Web template using Angular</p>
+            <p><a href="/cartoon-strip" target="_blank"><i class="fas fa-eye"></i> Demo</a> <a href="https://github.com/vvnsk/cartoonStrip" target="_blank"><i class="fas fa-code"></i> Code</a></p>
+        </div>
+    </div>
+</div>
+
 <div class="parallax-container" id="education">
     <p class="bannerStatic">Education</p>
 
@@ -448,6 +559,18 @@
                 </ul>
             </li>
         </ul>
+    </div>
+</div>
+
+<div class="parallax-container" id="fitness">
+    <p class="bannerStatic">Fitness</p>
+
+    <div class="parallax"><img src="images/banner/fitness.jpg"></div>
+</div>
+
+<div class="section white">
+    <div class="row projectsAlign">
+        <img src="images/logo/coming-soon.png">
     </div>
 </div>
 
