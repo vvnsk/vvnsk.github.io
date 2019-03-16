@@ -295,19 +295,17 @@ ul.side-nav.fixed li.logo .icon:hover {
 
 /* Blink Keyframes */
 @-keyframes blink {
-    0 opacity: 1
-}
+    0% {
+        opacity: 1
+    }
 
-50
-%
-{
-    opacity: 0
-}
+    50% {
+        opacity: 0
+    }
 
-100
-%
-{
-    opacity: 1
+    100% {
+        opacity: 1
+    }
 }
 
 @-webkit-keyframes blink {
@@ -443,12 +441,27 @@ ul.side-nav.fixed li.logo .icon:hover {
 	height: 100px;
 }
 
+.workout-schedule {
+    width: 75%;
+    margin: auto;
+}
 
+.workout-schedule .slick-arrow:before {
+    font-weight: 900;
+    font-family: "Font Awesome 5 Free";
+    -webkit-font-smoothing: antialiased;
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    line-height: 1;
+    color: black;
+}
 
+.slick-prev.slick-arrow:before {
+    content: "\f359";
+}
 
-
-
-
-
-
-
+.slick-next.slick-arrow:before {
+    content: "\f35a";
+}

@@ -1,5 +1,8 @@
 $(document).ready(function() {
-	$("a").filter(function(i,v){ return $(v).attr("href").indexOf("hosting")>=0}).hide()
+	$("a").filter(function(i,v){
+	    let attr = $(v).attr("href");
+	    return attr? $(v).attr("href").indexOf("hosting")>=0 : false;
+	}).hide();
     $(".parallax-container").height($(window).height() * 0.5);
     $(".mainSection").height($(window).height());
 	if($('window').width()>992){
@@ -34,4 +37,5 @@ $(document).ready(function() {
 		
     });
     $('.materialboxed').materialbox();
+    $('.workout-schedule').slick();
 });
