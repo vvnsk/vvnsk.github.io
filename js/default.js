@@ -19,7 +19,7 @@ $(document).ready(function() {
         } // Closes side-nav on <a> clicks, useful for Angular/Meteor
     });
     $("#typed").typed({
-        strings: ["a Web Developer.", "a Data Analyst.", "a Fitness Enthusiast.", "SK !"],
+        strings: ["a Web Developer.", "a Data Analyst.", "SK !"],
         typeSpeed: 30,
         backDelay: 15,
         loop: false,
