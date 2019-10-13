@@ -4,8 +4,10 @@
   "private": true,
   "homepage": "http://vvnsk.github.io",
   "dependencies": {
+    "@sentry/browser": "^5.7.0",
     "react": "^16.10.2",
     "react-dom": "^16.10.2",
+    "react-ga": "^2.7.0",
     "react-scripts": "3.2.0"
   },
   "scripts": {
