@@ -2,9 +2,9 @@
   "main": {
     "name": "Saikrishna, Vinnakota",
     "occupation": "Web Developer",
-    "description": "Here will be your description. Use this to describe what you do or whatever you feel best describes yourself to a potential employer",
+    "description": "With extensive knowledge of web technologies and enthusiasm to learn new technologies, I'm always in search of something new",
     "image": "logo.png",
-    "bio": "Use this bio section as your way of describing yourself and saying what you do, what technologies you like to use or feel most comfortable with, describing your personality, or whatever else you feel like throwing in.",
+    "bio": "I have key skills in usability, accessibility, cross platform browser issues, advanced CSS based design, responsive design, mobile sites and user interface design using a range of web technologies. I have experience with variety of databases such as MySQL, NoSQL (MongoDB, DynamoDB etc). With a DevOps mindset, I have experience with Amazon Web Services(AWS) and deployed several projects over EC2 instances, managed S3 buckets and possess knowledge to define data processing and governance pipeline using S3, SQS, SNS, EC2, Lambda, EMR, Redshift etc. Experience with large scale complex projects and Experience in design / architecture of new solutions and knowledge of API integration, data cleansing, filtering etc. and having good understanding about related challenges.",
     "contactmessage": "Here is where you should write your message to readers to have them get in contact with you.",
     "email": "vinnakotavnsaikrishna@gmail.com",
     "address": {
@@ -16,12 +16,12 @@
     "social": [
       {
         "name": "linkedin",
-        "url": "https://www.linkedin.com/in/tim-baker-8420009a/",
+        "url": "https://www.linkedin.com/in/vvnsk/",
         "className": "fa fa-linkedin"
       },
       {
         "name": "github",
-        "url": "http://github.com/tbakerx",
+        "url": "http://github.com/vvnsk",
         "className": "fa fa-github"
       }
     ]
@@ -29,80 +29,147 @@
   "resume": {
     "education": [
       {
-        "school": "University?",
-        "degree": "Masters in Beer tasting",
-        "graduated": "April 2007",
+        "school": "University of South Florida",
+        "degree": "Masters in Management and Information Systems",
+        "graduated": "December 2017",
         "description": "Describe your experience at school, what you learned, what useful skills you have acquired etc."
       },
       {
-        "school": "School #1 Maybe College?",
-        "degree": "What did you study 101",
-        "graduated": "March 2003",
+        "school": "Vasavi College of Engineering",
+        "degree": "Bachelor of Engineering",
+        "graduated": "July 2013",
         "description": "Describe your experience at school, what you learned, what useful skills you have acquired etc."
       }
     ],
     "work": [
       {
-        "company": "Awesome Design Studio",
-        "title": "Senior UX God ",
-        "years": "March 2010 - Present",
-        "description": "Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
+        "company": "Axxess, Dallas",
+        "title": "Front End Engineer",
+        "years": "February 2018 - Present",
+        "description": "Developing a Hospice Application for agencies which provide Hospice for Terminally Ill Patients, which involved Creation of KPI Dashboards using High charts for Entities in the application and provided drill down to various pages, Implementing Schedule Center which uses Full Calendar to display Patient and Employee Schedule. Developed messaging center which integrates with application and uses Signal R, Created components and build Form Builder to documents visits which are reused throughout the application. Worked on Missed Visit and Visit Exports for submission on both Front End and Server side. Introduced Unit Testing with Jest and integrated with Aurelia and Team city, which reduced bugs by 60%. Integration with Full Calendar, High charts, Signal R, OIDC, Text Editor, Moment, Toastr and other technology. Worked with ASP.NET framework and develop new components with Agile Methodology and Optimized load times of application by chunking, CSS minification and other techniques by 70%."
       },
       {
-        "company": "Super Cool Studio",
-        "title": "Junior bug fixer",
-        "years": "March 2007 - February 2010",
-        "description": "Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
+        "company": "Lincare, Clearwater",
+        "title": "Billing Data Analyst",
+        "years": "October 2017 - December 2017",
+        "description": "Successfully developed a Dashboard application to monitor the status of all metrics based on existing reports. Created Tableau Dashboards with interactive views, trends and drill downs along with user level security. Provide guidance in maximizing the potential of SharePoint and Tableau as it relates to company KPI."
+      },
+      {
+        "company": "INTO USF, Tampa",
+        "title": "Information Technology Tutor",
+        "years": "September 2017 - December 2017",
+        "description": "The Role involved in overseeing the co-ordination of issues; change control, risks, documentation and any other logs that need control in projects associated with University and Students. Performed reviews, Audits, compliance, health checks, and configuration management were also performed in projects demanding the same. Ensured Good practice which reflect the method, standard, process, tools of project management and procedures that team needs to work efficiently."
+      },
+      {
+        "company": "Leapdoctor.com, Tampa",
+        "title": "Software Engineer",
+        "years": "September 2016 - August 2017",
+        "description": "Developed Website using Blaze Templates, Meteor JS and Mongo DB and deployed over Amazon Web Services platform. Further, Incorporated Design techniques to solve business problems related to Website, and communicated these solutions to executive stakeholders. Performed ETL and migrated of data from Mongo DB to Redshift on AWS to incorporate a snowflake staging data model for staging using Pentaho data integration tool."
+      },
+      {
+        "company": "Cognizant Technology Solutions, Hyderabad",
+        "title": "Programmer Analyst",
+        "years": "September 2013 - July 2016",
+        "description": "Being the first Company I've been associated with, it has been a great experience through which i learnt a lot. Working for multiple projects of diverse domains, the extensive knowledge and expertise the company offers, is a class apart. Primary technologies used are HTML, CSS and OO JavaScript written using Closure. I make extensive use of progressive enhancement and responsive design techniques. Used to working under a high-pressured environment developing sites for coordinated application launches."
       }
     ],
     "skills": [
-      {
-        "name": "Git",
-        "image": "60%"
-      }
+      { "name": "HTML 5", "image": "html5-logo.jpg" },
+      { "name": "CSS 3", "image": "css3-logo.jpg" },
+      { "name": "Javascript", "image": "javascript-logo.jpg" },
+      { "name": "jQuery", "image": "jquery-logo.jpg" },
+      { "name": "Bootstrap", "image": "bootstrap-logo.jpg" },
+      { "name": "Aurelia", "image": "aurelia-logo.jpg" },
+      { "name": "Angular", "image": "angular-logo.jpg" },
+      { "name": "React", "image": "react-logo.jpg" },
+      { "name": "Jest", "image": "jest-logo.jpg" },
+      { "name": "ASP.NET", "image": "asp-logo.jpg" },
+      { "name": "Java", "image": "java-logo.jpg" },
+      { "name": "Node", "image": "nodejs-logo.jpg" },
+      { "name": "Python", "image": "python-logo.jpg" },
+      { "name": "Tableau", "image": "tableau-logo.png" },
+      { "name": "Meteor", "image": "meteor-logo.jpg" },
+      { "name": "Express", "image": "express-logo.jpg" },
+      { "name": "Mongo DB", "image": "mongo-logo.jpg" },
+      { "name": "SQL", "image": "sql-logo.jpg" },
+      { "name": "Pentaho", "image": "pentaho-logo.jpg" },
+      { "name": "AWS", "image": "aws-logo.jpg" },
+      { "name": "Heroku", "image": "heroku-logo.jpg" },
+      { "name": "JSF", "image": "jsf-logo.jpg" },
+      { "name": "SAS", "image": "sas-logo.jpg" },
+      { "name": "Rapidminer", "image": "rapid-logo.jpg" },
+      { "name": "WEKA", "image": "weka-logo.jpg" },
+      { "name": "SASS", "image": "sass-logo.jpg" },
+      { "name": "GSAP", "image": "gsap-logo.jpg" },
+      { "name": "Phaser", "image": "phaser-logo.jpg" },
+      { "name": "Github", "image": "github-logo.jpg" },
+      { "name": "Photoshop", "image": "photoshop-logo.jpg" }
     ]
   },
   "portfolio": {
     "projects": [
       {
-        "title": "Canadian Wanderlust",
-        "category": "My Travel Blog for my post-university travels",
-        "image": "canadian-wanderlust.jpg",
-        "url": "https://www.canadianwanderlust.com"
+        "title": "USF Quip",
+        "category": "A Web App aimed at helping students navigate in university",
+        "image": "usf-quip.png",
+        "url": "https://github.com/fadfood5/QuipAppUSF"
       },
       {
-        "title": "Fury Fighting Gear",
-        "category": "(offline now) A fighting gear company I started",
-        "image": "fury-fighting-gear.jpg",
-        "url": "http://www.timbakerdev.com"
+        "title": "ngKart",
+        "category": "A demo shopping application built using angular js",
+        "image": "ng-kart.png",
+        "url": "https://github.com/vvnsk/ngKart"
       },
       {
-        "title": "Original Thai Food",
-        "category": "Website I built for a restaurant I like in Thailand",
-        "image": "original-thai-food.jpg",
-        "url": "http://www.timbakerdev.com/originalthaifood.github.io"
+        "title": "Fish Institute Dashboard",
+        "category": "Dashboard i've built for Fish Institute",
+        "image": "fish-institute.png",
+        "url": "https://github.com/vvnsk/D3-Dashboard"
       },
       {
-        "title": "Resume Website",
-        "category": "A React based resume website template",
-        "image": "resume-website.jpg",
-        "url": "http://www.timbakerdev.com"
-      },
-      {
-        "title": "Smirkspace",
-        "category": "(MVP Only) A React and Meteor based chat University project.",
-        "image": "smirkspace.jpg",
-        "url": "http://www.smirkspace.com"
+        "title": "Cartoon Strip",
+        "category": "An animated comic concept",
+        "image": "cartoon-strip.png",
+        "url": "https://github.com/vvnsk/cartoonStrip"
       }
     ]
   },
   "certifications": {
     "certifications": [
       {
-        "title": "Here you should write some nice things that someone has said about you. No lies though, employers can tell when you are lying.",
-        "organization": "Kareem Abdul Jabbar",
-        "image": "bla.jpg",
-        "url": ""
+        "title": "Oracle Certified Associate, Java SE 8 Programmer",
+        "image": "oracle.jpg",
+        "url": "https://www.youracclaim.com/badges/1d633d8b-56c9-4b2c-928e-a23de65a8823/"
+      },
+      {
+        "title": "Microsoft Certified Professional, HTML5 with JavaScript and CSS3",
+        "image": "microsoft.jpg",
+        "url": "https://www.youracclaim.com/badges/6a98702a-a3f1-46ee-8211-e5b830a12937/"
+      },
+      {
+        "title": "MongoDB for DBA's",
+        "image": "mongo.jpg",
+        "url": "https://university.mongodb.com/course_completion/b377ac8ee5424c7e87baa6ca88d10c23"
+      },
+      {
+        "title": "Computer Science and Programming Using Python",
+        "image": "mitx.jpg",
+        "url": "https://courses.edx.org/certificates/f03d105aea9f4bd8a64beb30c8b94750"
+      },
+      {
+        "title": "Analytics and Business Intelligence - USF",
+        "image": "sas.jpg",
+        "url": "https://vinnakota.me/certificates/sas_certi.pdf"
+      },
+      {
+        "title": "Data Scientist with R",
+        "image": "datacamp.jpg",
+        "url": "https://www.datacamp.com/statement-of-accomplishment/track/3120f7203097bfa4cdfbc0aaa1961d5790d3c496"
+      },
+      {
+        "title": "Data Analyst with R",
+        "image": "datacamp.jpg",
+        "url": "https://www.datacamp.com/statement-of-accomplishment/track/862d3fa82c3769ef2cb5fde512b08b760c948983"
       }
     ]
   }
