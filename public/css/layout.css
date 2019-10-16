@@ -35,11 +35,37 @@ header {
   height: 800px;
   min-height: 500px;
   width: 100%;
-  background: #161415 url(../images/header-background.jpg) no-repeat top center;
+  background: linear-gradient(-45deg, #5c5470, #352f44, #2a2438);
+  background-size: 400% 400%;
+  -webkit-animation: gradientBG 3s ease infinite;
+  animation: gradientBG 3s ease infinite;
   background-size: cover !important;
   -webkit-background-size: cover !important;
   text-align: center;
   overflow: hidden;
+}
+
+@-webkit-keyframes gradientBG {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+@keyframes gradientBG {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
 }
 
 /* vertically center banner section */
