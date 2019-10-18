@@ -45,7 +45,7 @@
         "company": "Axxess, Dallas",
         "title": "Front End Engineer",
         "years": "February 2018 - Present",
-        "description": "Developing a Hospice Application for agencies which provide Hospice for Terminally Ill Patients, which involved Creation of KPI Dashboards using High charts for Entities in the application and provided drill down to various pages, Implementing Schedule Center which uses Full Calendar to display Patient and Employee Schedule. Developed messaging center which integrates with application and uses Signal R, Created components and build Form Builder to documents visits which are reused throughout the application. Worked on Missed Visit and Visit Exports for submission on both Front End and Server side. Introduced Unit Testing with Jest and integrated with Aurelia and Team city, which reduced bugs by 60%. Integration with Full Calendar, High charts, Signal R, OIDC, Text Editor, Moment, Toastr and other technology. Worked with ASP.NET framework and develop new components with Agile Methodology and Optimized load times of application by chunking, CSS minification and other techniques by 70%."
+        "description": "Developing a Hospice Application for agencies which provide Hospice for Terminally Ill Patients, which involved Creation Schedule Center which uses Full Calendar to display Patient and Employee Schedule. Developed messaging center which integrates with application and uses Signal R, Created components and build Form Builder to documents visits which are reused throughout the application. Worked on Missed Visit and Visit Exports for submission on both Front End and Server side. Introduced Unit Testing with Jest and integrated with Aurelia and Team city, which reduced bugs by 60%. Worked with ASP.NET Entity framework and develop new components with Agile Methodology and Optimized load times of application by chunking, CSS minification and other techniques by 70%."
       },
       {
         "company": "Lincare, Clearwater",
@@ -108,6 +108,12 @@
   "portfolio": {
     "projects": [
       {
+        "title": "Axxess Hospice",
+        "category": "A custom-built hospice solution",
+        "image": "axxess-hospice.png",
+        "url": "https://www.axxess.com/hospice"
+      },
+      {
         "title": "USF Quip",
         "category": "A Web App aimed at helping students navigate in university",
         "image": "usf-quip.png",
@@ -124,12 +130,6 @@
         "category": "Dashboard i've built for Fish Institute",
         "image": "fish-institute.png",
         "url": "https://github.com/vvnsk/D3-Dashboard"
-      },
-      {
-        "title": "Cartoon Strip",
-        "category": "An animated comic concept",
-        "image": "cartoon-strip.png",
-        "url": "https://github.com/vvnsk/cartoonStrip"
       }
     ]
   },
@@ -137,37 +137,37 @@
     "certifications": [
       {
         "title": "Oracle Certified Associate, Java SE 8 Programmer",
-        "image": "oracle.jpg",
+        "image": "oracle.png",
         "url": "https://www.youracclaim.com/badges/1d633d8b-56c9-4b2c-928e-a23de65a8823/"
       },
       {
         "title": "Microsoft Certified Professional, HTML5 with JavaScript and CSS3",
-        "image": "microsoft.jpg",
+        "image": "microsoft.png",
         "url": "https://www.youracclaim.com/badges/6a98702a-a3f1-46ee-8211-e5b830a12937/"
       },
       {
         "title": "MongoDB for DBA's",
-        "image": "mongo.jpg",
+        "image": "mongo.png",
         "url": "https://university.mongodb.com/course_completion/b377ac8ee5424c7e87baa6ca88d10c23"
       },
       {
         "title": "Computer Science and Programming Using Python",
-        "image": "mitx.jpg",
+        "image": "mitx.png",
         "url": "https://courses.edx.org/certificates/f03d105aea9f4bd8a64beb30c8b94750"
       },
       {
         "title": "Analytics and Business Intelligence - USF",
-        "image": "sas.jpg",
+        "image": "sas.png",
         "url": "https://vinnakota.me/certificates/sas_certi.pdf"
       },
       {
         "title": "Data Scientist with R",
-        "image": "datacamp.jpg",
+        "image": "datacamp.png",
         "url": "https://www.datacamp.com/statement-of-accomplishment/track/3120f7203097bfa4cdfbc0aaa1961d5790d3c496"
       },
       {
         "title": "Data Analyst with R",
-        "image": "datacamp.jpg",
+        "image": "datacamp.png",
         "url": "https://www.datacamp.com/statement-of-accomplishment/track/862d3fa82c3769ef2cb5fde512b08b760c948983"
       }
     ]
