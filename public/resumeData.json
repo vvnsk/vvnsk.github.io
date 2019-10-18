@@ -2,10 +2,9 @@
   "main": {
     "name": "Saikrishna, Vinnakota",
     "occupation": "Web Developer",
-    "description": "With extensive knowledge of web technologies and enthusiasm to learn new technologies, I'm always in search of something new",
+    "description": "with extensive knowledge of web and enthusiasm to learn upcoming technologies",
     "image": "logo.png",
     "bio": "I have key skills in usability, accessibility, cross platform browser issues, advanced CSS based design, responsive design, mobile sites and user interface design using a range of web technologies. I have experience with variety of databases such as MySQL, NoSQL (MongoDB, DynamoDB etc). With a DevOps mindset, I have experience with Amazon Web Services(AWS) and deployed several projects over EC2 instances, managed S3 buckets and possess knowledge to define data processing and governance pipeline using S3, SQS, SNS, EC2, Lambda, EMR, Redshift etc. Experience with large scale complex projects and Experience in design / architecture of new solutions and knowledge of API integration, data cleansing, filtering etc. and having good understanding about related challenges.",
-    "contactmessage": "Here is where you should write your message to readers to have them get in contact with you.",
     "email": "vinnakotavnsaikrishna@gmail.com",
     "address": {
       "city": "Dallas",

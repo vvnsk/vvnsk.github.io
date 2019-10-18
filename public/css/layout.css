@@ -11,10 +11,8 @@
    c. About Section
    d. Resume Section
    e. Portfolio Section
-   f. Call To Action Section
-   g. Testimonials Section
-   h. Contact Section
-   i. Footer
+   f. Certifications Section
+   h. Footer
 
 ===================================================================== */
 
@@ -36,11 +34,11 @@ header {
   min-height: 500px;
   width: 100%;
   background: linear-gradient(-45deg, #5c5470, #352f44, #2a2438);
-  background-size: 400% 400%;
-  -webkit-animation: gradientBG 3s ease infinite;
-  animation: gradientBG 3s ease infinite;
   background-size: cover !important;
   -webkit-background-size: cover !important;
+  background-size: 400% 400% !important;
+  -webkit-animation: gradientBG 10s ease infinite;
+  animation: gradientBG 10s ease infinite;
   text-align: center;
   overflow: hidden;
 }
@@ -96,14 +94,14 @@ header .banner-text h1 {
 }
 header .banner-text h3 {
   font: 18px/1.9em "librebaskerville-regular", serif;
-  color: #a8a8a8;
+  color: #fff;
   margin: 0 auto;
   width: 70%;
   text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.5);
 }
 header .banner-text h3 span,
 header .banner-text h3 a {
-  color: #fff;
+  font-size: 1.2em;
 }
 header .banner-text hr {
   width: 60%;
@@ -407,7 +405,8 @@ ul#nav li.current a {
 }
 
 .education,
-.work {
+.work,
+.skill {
   margin-bottom: 48px;
   padding-bottom: 24px;
   border-bottom: 1px solid #e8e8e8;
@@ -425,6 +424,11 @@ ul#nav li.current a {
 #resume .date {
   font: 15px/24px "opensans-regular", sans-serif;
   margin-top: 6px;
+}
+
+#resume .skill-label {
+  text-align: center;
+  width: 100%;
 }
 
 /* ------------------------------------------------------------------ */
@@ -608,66 +612,7 @@ ul#nav li.current a {
 }
 
 /* ------------------------------------------------------------------ */
-/* f. Call To Action Section
-/* ------------------------------------------------------------------ */
-
-#call-to-action {
-  background: #212121;
-  padding-top: 66px;
-  padding-bottom: 48px;
-}
-#call-to-action h1 {
-  font: 18px/24px "opensans-bold", sans-serif;
-  text-transform: uppercase;
-  letter-spacing: 3px;
-  color: #fff;
-}
-#call-to-action h1 span {
-  display: none;
-}
-#call-to-action .header-col h1:before {
-  font-family: "FontAwesome";
-  content: "\f0ac";
-  padding-right: 10px;
-  font-size: 72px;
-  line-height: 72px;
-  text-align: left;
-  float: left;
-  color: #fff;
-}
-#call-to-action .action {
-  margin-top: 12px;
-}
-#call-to-action h2 {
-  font: 28px/36px "opensans-bold", sans-serif;
-  color: #ebeeee;
-  margin-bottom: 6px;
-}
-#call-to-action h2 a {
-  color: inherit;
-}
-#call-to-action p {
-  color: #636363;
-  font-size: 17px;
-}
-/*#
-call-to-action .button {
-	color:#fff;
-   background: #0D0D0D;
-}
-*/
-#call-to-action .button:hover,
-#call-to-action .button:active {
-  background: #ffffff;
-  color: #0d0d0d;
-}
-#call-to-action p span {
-  font-family: "opensans-semibold", sans-serif;
-  color: #d8d8d8;
-}
-
-/* ------------------------------------------------------------------ */
-/* e. Certifications Section
+/* f. Certifications Section
 /* ------------------------------------------------------------------ */
 
 #certifications {
@@ -680,7 +625,7 @@ call-to-action .button {
 }
 
 /* ------------------------------------------------------------------ */
-/* i. Footer
+/* h. Footer
 /* ------------------------------------------------------------------ */
 
 footer {

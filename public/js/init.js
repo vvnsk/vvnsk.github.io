@@ -113,11 +113,36 @@ jQuery(document).ready(function($) {
   });
 
   /*----------------------------------------------------*/
-  /*	Typed
+  /*	Header Color Random Palette
+------------------------------------------------------*/
+
+  let paletteOptions = [
+    ["#5c5470", "#352f44", "#2a2438"], // purple
+    ["#D10E0E", "#FF3030", "#FC4949"], // red
+    ["#3E000C", "#7A0018", "#7C0B2B"], // maroon
+    ["#000514", "#00092B", "#092C77"], // blue
+    ["#118AB2", "#51A9C7", "#97CABF"], // light blue
+    ["#2C435C", "#456990", "#7498BF"], // pale blue
+    ["#100431", "#260460", "#32127A"], // violet
+    ["#22223B", "#4A4E69", "#9A8C98"] // cement blue
+  ];
+
+  let selectedPaletteIndex = Math.floor(Math.random() * paletteOptions.length);
+  let selectedPalette = paletteOptions[selectedPaletteIndex];
+
+  $("#home").css(
+    "background",
+    `linear-gradient(-45deg, ${selectedPalette[0]}, ${selectedPalette[1]}, ${
+      selectedPalette[2]
+    })`
+  );
+
+  /*----------------------------------------------------*/
+  /*	Header Typed
 ------------------------------------------------------*/
 
   $("#typed").typed({
-    strings: ["a Web Developer.", "a Data Analyst.", "SK !"],
+    strings: ["a Web Developer", "a Data Analyst", "Sai Krishna !"],
     typeSpeed: 30,
     backDelay: 15,
     loop: false,
