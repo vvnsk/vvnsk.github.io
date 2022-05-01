@@ -6,7 +6,6 @@ import ContactMe from "./pages/contact-me/ContactMe";
 import PageNotFound from "./pages/page-not-found/PageNotFound";
 
 import "./App.css";
-import "./css-reset.css";
 
 function App() {
   return (
