@@ -1,12 +1,12 @@
 import HomeLink from "../../components/HomeLink/HomeLink";
 
-function PageNotFound() {
+function Contact() {
   return (
     <>
       <HomeLink />
-      <h2>Page Not Found</h2>
+      <h2>Contact</h2>
     </>
   );
 }
 
-export default PageNotFound;
+export default Contact;

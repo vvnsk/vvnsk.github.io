@@ -3,15 +3,19 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding-left: 5rem;
 }
 
 .home-wrapper h1 {
+  width: fit-content;
   font-size: 12vw;
   font-weight: 900;
   margin: 0.6rem 0;
 }
 
-.home-wrapper .blue-color {
-  color: #00cbea;
+.home-wrapper a {
+  color: #FFFFFF;
+}
+
+.home-wrapper .blue-color a{
+  color: #00CBEA;
 }
