@@ -2,8 +2,63 @@ import HomeLink from "../../components/HomeLink/HomeLink";
 import "./About.css";
 
 function About() {
-  let currentYear = new Date().getFullYear();
-  let experience = currentYear - 2013;
+  const currentYear = new Date().getFullYear();
+  const experience = currentYear - 2013;
+  const certifications = [
+    {
+      name: "Professional Scrum Master™ I (PSM I)",
+      certLink:
+        "https://www.credly.com/badges/fa900ce1-0421-4a70-9741-f605e48ba65f?source=linked_in_profile",
+      org: "Scrum.org",
+      orgLink: "https://www.credly.com/organizations/scrum-org/badges",
+      date: "Jun 2020",
+    },
+    {
+      name: "Exam 480: Programming in HTML5 with JavaScript and CSS3",
+      certLink:
+        "https://www.credly.com/badges/6a98702a-a3f1-46ee-8211-e5b830a12937/linked_in_profile",
+      org: "Microsoft",
+      orgLink:
+        "https://www.credly.com/organizations/microsoft-certification/badges",
+      date: "Dec 2018",
+    },
+    {
+      name: "Oracle Certified Associate, Java SE 8 Programmer",
+      certLink:
+        "https://www.credly.com/badges/1d633d8b-56c9-4b2c-928e-a23de65a8823/linked_in_profile",
+      org: "Oracle",
+      orgLink: "https://www.credly.com/organizations/oracle/badges",
+      date: "Dec 2018",
+    },
+    {
+      name: "Data Scientist with R Track",
+      certLink:
+        "https://www.datacamp.com/statement-of-accomplishment/track/3120f7203097bfa4cdfbc0aaa1961d5790d3c496",
+      org: "Datacamp",
+      orgLink: "https://www.datacamp.com",
+      date: "Jul 2017",
+    },
+    {
+      name: "Analytics and Business Intelligence - USF",
+      certLink:
+        "https://catalog.usf.edu/preview_program.php?catoid=9&poid=2813&returnto=968",
+      org: "SAS",
+      orgLink: "https://www.sas.com/en_us/home.html",
+      date: "May 2017",
+    },
+  ];
+  const education = [
+    {
+      name: "Masters in Management and Information Systems",
+      org: "University of South Florida",
+      date: "Dec 2017",
+    },
+    {
+      name: "Bachelor of Engineering",
+      org: "Osmania University - Vasavi College of Engineering",
+      date: "Jul 2013",
+    },
+  ];
   return (
     <div className="page-wrapper about-wrapper">
       <HomeLink />
@@ -30,75 +85,25 @@ function About() {
       </p>
       <h3>Certifications</h3>
       <ul className="list-items">
-        <li>
-          <a href="https://www.credly.com/badges/fa900ce1-0421-4a70-9741-f605e48ba65f?source=linked_in_profile">
-            Professional Scrum Master™ I (PSM I)
-          </a>
-          <a
-            className="org-name"
-            href="https://www.credly.com/organizations/scrum-org/badges"
-          >
-            Scrum.org
-          </a>
-          <small>Issued Jun 2020</small>
-        </li>
-        <li>
-          <a href="https://www.credly.com/badges/6a98702a-a3f1-46ee-8211-e5b830a12937/linked_in_profile">
-            Exam 480: Programming in HTML5 with JavaScript and CSS3
-          </a>
-          <a
-            className="org-name"
-            href="https://www.credly.com/organizations/microsoft-certification/badges"
-          >
-            Microsoft
-          </a>
-          <small>Issued Dec 2018</small>
-        </li>
-        <li>
-          <a href="https://www.credly.com/badges/1d633d8b-56c9-4b2c-928e-a23de65a8823/linked_in_profile">
-            Oracle Certified Associate, Java SE 8 Programmer
-          </a>
-          <a
-            className="org-name"
-            href="https://www.credly.com/organizations/oracle/badges"
-          >
-            Oracle
-          </a>
-          <small>Issued Dec 2018</small>
-        </li>
-        <li>
-          <a href="https://www.datacamp.com/statement-of-accomplishment/track/3120f7203097bfa4cdfbc0aaa1961d5790d3c496">
-            Data Scientist with R Track
-          </a>
-          <a className="org-name" href="https://www.datacamp.com">
-            Datacamp
-          </a>
-          <small>Issued Jul 2017</small>
-        </li>
-        <li>
-          <a href="https://catalog.usf.edu/preview_program.php?catoid=9&poid=2813&returnto=968">
-            Analytics and Business Intelligence - USF
-          </a>
-          <a className="org-name" href="https://www.sas.com/en_us/home.html">
-            SAS
-          </a>
-          <small>Issued Nay 2017</small>
-        </li>
+        {certifications.map((cert) => (
+          <li>
+            <a href={cert.certLink} target="_blank" rel="noreferrer">{cert.name}</a>
+            <a className="org-name" href={cert.orgLink} target="_blank" rel="noreferrer">
+              {cert.org}
+            </a>
+            <small>Issued {cert.date}</small>
+          </li>
+        ))}
       </ul>
       <h3>Education</h3>
       <ul className="list-items">
-        <li>
-          <span>Masters in Management and Information Systems</span>
-          <span className="org-name">University of South Florida</span>
-          <small>Issued Dec 2017</small>
-        </li>
-        <li>
-          <span>Bachelor of Engineering</span>
-          <span className="org-name">
-            Osmania University - Vasavi College of Engineering
-          </span>
-          <small>Issued Jul 2013</small>
-        </li>
+        {education.map((edu) => (
+          <li>
+            <span>{edu.name}</span>
+            <span className="org-name">{edu.org}</span>
+            <small>Issued {edu.date}</small>
+          </li>
+        ))}
       </ul>
     </div>
   );

@@ -1,0 +1,21 @@
+.work-wrapper h3 {
+  width: fit-content;
+  font-size: 2rem;
+  font-weight: 900;
+  margin: 2rem 0;
+}
+
+.work-wrapper small{
+    display: block;
+    margin-top: 0.3rem;
+}
+
+.work-wrapper p {
+  line-height: 1.5;
+  margin-top: 2rem;
+}
+
+.work-wrapper p.github-desc {
+    margin-top: 0;
+    margin-bottom: 2rem;
+}
