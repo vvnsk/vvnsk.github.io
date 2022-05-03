@@ -1,6 +1,6 @@
 import "./Home.css";
 import { Link } from "react-router-dom";
-import HoverText from '../../components/HoverText/HoverText';
+import HoverText from "../../components/HoverText/HoverText";
 
 function Home() {
   return (
@@ -10,7 +10,7 @@ function Home() {
           text={<h1 className="sliding-text">Hello.</h1>}
           altText={
             <h1 className="sliding-text">
-              <Link to="/work">Work</Link>
+              <Link to="/about">About</Link>
             </h1>
           }
         />
@@ -18,7 +18,7 @@ function Home() {
           text={<h1 className="blue-color sliding-text">I am</h1>}
           altText={
             <h1 className="blue-color sliding-text">
-              <Link to="/about">About</Link>
+              <Link to="/work">Work</Link>
             </h1>
           }
         />

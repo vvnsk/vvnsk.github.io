@@ -4,3 +4,11 @@
   right: 6vw;
   top: 6vw;
 }
+
+.sliding-home-link {
+  transition: margin-right 0.5s;
+}
+
+.sliding-home-link:hover {
+  margin-right: 1vw;
+}
