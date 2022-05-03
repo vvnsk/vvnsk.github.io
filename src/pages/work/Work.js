@@ -1,5 +1,4 @@
-
-import HomeLink from '../../components/HomeLink/HomeLink';
+import HomeLink from "../../components/HomeLink/HomeLink";
 
 function Work() {
   return (

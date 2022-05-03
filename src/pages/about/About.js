@@ -1,10 +1,11 @@
 import HomeLink from "../../components/HomeLink/HomeLink";
+import "./About.css";
 
 function About() {
   let currentYear = new Date().getFullYear();
   let experience = currentYear - 2013;
   return (
-    <div className="page-wrapper">
+    <div className="page-wrapper about-wrapper">
       <HomeLink />
       <h2>About</h2>
       <h4>

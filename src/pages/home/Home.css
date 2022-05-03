@@ -19,3 +19,15 @@
 .home-wrapper .blue-color a{
   color: #00CBEA;
 }
+
+.home-wrapper .blue-color {
+  color: #00cbea;
+}
+
+.home-wrapper .sliding-text {
+  transition: margin-left 0.5s;
+}
+
+.home-wrapper .sliding-text:hover {
+  margin-left: 6vw;
+}

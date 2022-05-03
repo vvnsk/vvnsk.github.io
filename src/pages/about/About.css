@@ -1,0 +1,32 @@
+.about-wrapper .list-items li {
+  margin-bottom: 1rem;
+}
+
+.about-wrapper .list-items li > * {
+  display: block;
+  margin-bottom: 0.25rem;
+}
+
+.about-wrapper .list-items li .org-name,
+small {
+  font-size: 0.7rem;
+}
+
+.about-wrapper h3 {
+  width: fit-content;
+  font-size: 2rem;
+  font-weight: 900;
+  margin: 2rem 0;
+}
+
+.about-wrapper h4 {
+  width: fit-content;
+  font-size: 1.5rem;
+  margin: 2vw 0;
+  line-height: 1.3;
+}
+
+.about-wrapper p {
+  line-height: 1.5;
+  margin-top: 2rem;
+}
