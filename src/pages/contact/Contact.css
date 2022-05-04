@@ -1,3 +1,31 @@
+.contact-wrapper .form-description {
+  margin-bottom: 2rem;
+  line-height: 1.5;
+}
+
+.contact-wrapper .contact-card-wrapper {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.contact-wrapper .contact-card p{
+  margin-top: 1rem;
+  text-align: center;
+}
+
+.contact-wrapper .contact-card {
+  margin-bottom: 1rem;
+}
+
+.contact-wrapper .contact-card img {
+  max-width: 100px;
+}
+
+.contact-wrapper hr {
+  margin: 1rem 0;
+}
+
 .contact-wrapper input,
 .contact-wrapper textarea {
   width: 100%;
@@ -13,6 +41,7 @@
 
 .contact-wrapper textarea {
     resize:vertical;
+    font-family: 'Roboto', sans-serif;
 }
 
 .contact-wrapper button {
