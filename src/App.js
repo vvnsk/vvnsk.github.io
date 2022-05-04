@@ -4,7 +4,9 @@ import Home from "./pages/home/Home";
 import Work from "./pages/work/Work";
 import Contact from "./pages/contact/Contact";
 import PageNotFound from "./pages/page-not-found/PageNotFound";
+import { ToastContainer } from 'react-toastify';
 
+import 'react-toastify/dist/ReactToastify.min.css';
 import "./App.css";
 
 function App() {
@@ -19,6 +21,7 @@ function App() {
           <Route path="*" element={<PageNotFound />} />
         </Routes>
       </Router>
+      <ToastContainer theme="dark"/>
     </div>
   );
 }
