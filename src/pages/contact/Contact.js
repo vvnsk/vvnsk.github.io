@@ -5,7 +5,7 @@ import { toast } from "react-toastify";
 import "./Contact.css";
 
 function Contact() {
-  const [status, setStatus] = useState("Submit");
+  const [status, setStatus] = useState("Send");
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
@@ -23,7 +23,6 @@ function Contact() {
           },
         ],
       };
-      console.log(process.env);
       await fetch(process.env.REACT_APP_CONTACT_HOOK, {
         method: "POST",
         headers: {
