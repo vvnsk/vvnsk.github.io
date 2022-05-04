@@ -22,7 +22,7 @@ function Contact() {
         }]
       };
       console.log(process.env)
-      await fetch(process.env.CONTACT_HOOK, {
+      await fetch(process.env.REACT_APP_CONTACT_HOOK, {
         method: "POST",
         headers: {
           "Content-Type": "application/json;charset=utf-8",
