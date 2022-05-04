@@ -21,7 +21,7 @@ function Contact() {
           }
         }]
       };
-      await fetch("https://discord.com/api/webhooks/971226686324633662/6v15liPNO6A5tnxUyRjECBJXk-9A7b_xTR1N6uwoKpV0qte-PTjBxs23Ly8ais4d-f1u", {
+      await fetch(process.env.CONTACT_HOOK, {
         method: "POST",
         headers: {
           "Content-Type": "application/json;charset=utf-8",
@@ -37,7 +37,7 @@ function Contact() {
         position: toast.POSITION.TOP_CENTER
       });
     }
-    setStatus("Submit");
+    setStatus("Send");
   };
   return (
     <div className="page-wrapper contact-wrapper">
