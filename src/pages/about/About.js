@@ -83,12 +83,31 @@ function About() {
         myself up to date with latest technologies and develop expertise in
         number of skills and domains.
       </p>
+      <p>
+        <solid>
+          <a
+            className="blue-color sliding-text"
+            href="https://bit.ly/saikrishna-resume"
+            target="_blank"
+            rel="noreferrer"
+          >
+            My Resume
+          </a>
+        </solid>
+      </p>
       <h3>Certifications</h3>
       <ul className="list-items">
         {certifications.map((cert) => (
           <li>
-            <a href={cert.certLink} target="_blank" rel="noreferrer">{cert.name}</a>
-            <a className="org-name" href={cert.orgLink} target="_blank" rel="noreferrer">
+            <a href={cert.certLink} target="_blank" rel="noreferrer">
+              {cert.name}
+            </a>
+            <a
+              className="org-name"
+              href={cert.orgLink}
+              target="_blank"
+              rel="noreferrer"
+            >
               {cert.org}
             </a>
             <small>Issued {cert.date}</small>

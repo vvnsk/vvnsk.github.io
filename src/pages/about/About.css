@@ -30,3 +30,23 @@ small {
   line-height: 1.5;
   margin-top: 2rem;
 }
+
+.about-wrapper .blue-color a{
+  color: #00CBEA;
+}
+
+.about-wrapper solid {
+  font-weight: 900;
+}
+
+.about-wrapper .blue-color {
+  color: #00cbea;
+}
+
+.about-wrapper .sliding-text {
+  transition: margin-left 0.5s;
+}
+
+.about-wrapper .sliding-text:hover {
+  margin-left: 3vw;
+}
