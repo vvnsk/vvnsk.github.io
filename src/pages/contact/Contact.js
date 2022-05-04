@@ -21,6 +21,7 @@ function Contact() {
           }
         }]
       };
+      console.log(process.env)
       await fetch(process.env.CONTACT_HOOK, {
         method: "POST",
         headers: {
