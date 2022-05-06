@@ -87,7 +87,7 @@ function About() {
         <solid>
           <a
             className="blue-color sliding-text"
-            href="https://bit.ly/saikrishna-resume"
+            href="https://bit.ly/saikrishna-resume-v2"
             target="_blank"
             rel="noreferrer"
           >
